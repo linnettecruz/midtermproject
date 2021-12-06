@@ -1,0 +1,24 @@
+/*INFO*/
+h2{
+    font-family: 'Philosopher', sans-serif;
+    text-align: center;
+}
+form{
+    font-family: 'Philosopher', sans-serif;
+    text-align: center;
+}
+input{
+    font-family: 'Overlock', cursive;
+    font-size: 15px;
+}
+select{
+    font-family: 'Overlock', cursive;
+    font-size: 15px;
+    background-color:#e9edf9;
+}
+label{
+    font-weight:550px;
+}
+input{
+    background-color:#e9edf9;
+}
