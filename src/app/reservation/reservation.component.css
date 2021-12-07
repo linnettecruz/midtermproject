@@ -16,6 +16,8 @@ select{
     font-size: 15px;
     background-color:#e9edf9;
     border-radius: 8px;
+    border-width: 2px;
+    border-color: #38369A;
 }
 label{
     font-weight:550px;
@@ -23,6 +25,7 @@ label{
 input{
     background-color:#e9edf9;
     border-radius: 8px;
+    border-color: #38369A;
 }
 .rsv{
     border-style:dotted;
