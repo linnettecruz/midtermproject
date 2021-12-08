@@ -1,0 +1,37 @@
+/*INFO*/
+h2{
+    font-family: 'Philosopher', sans-serif;
+    text-align: center;
+}
+form{
+    font-family: 'Philosopher', sans-serif;
+    text-align: center;
+}
+input{
+    font-family: 'Overlock', cursive;
+    font-size: 15px;
+}
+select{
+    font-family: 'Overlock', cursive;
+    font-size: 15px;
+    background-color:#e9edf9;
+    border-radius: 8px;
+    border-width: 2px;
+    border-color: #38369A;
+}
+label{
+    font-weight:550px;
+}
+input{
+    background-color:#e9edf9;
+    border-radius: 8px;
+    border-color: #38369A;
+}
+.rsv{
+    border-style:dotted;
+    border-color: #38369A;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 50px;
+    border-width: 4px;
+}
