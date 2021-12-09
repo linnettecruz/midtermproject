@@ -34,7 +34,7 @@ input{
     margin-right: 500px;
     border-radius: 50px;
     border-width: 4px;
-    background-color: #ece8da;
+    background-color: #ebf1ee;
 }
 button{
     font-family: 'Overlock', cursive;
@@ -45,6 +45,7 @@ button{
     padding-right: 8px;
     padding-top: 5px;
     padding-bottom: 5px;
+    background-color:#e9edf9
 }
 table{
     margin-left: 140px;
