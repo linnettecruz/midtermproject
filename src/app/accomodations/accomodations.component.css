@@ -1,0 +1,26 @@
+h2, h3 {
+    font-family: 'Philosopher', sans-serif;
+    text-align: center;
+}
+
+p {
+    font-family: 'Philosopher', sans-serif;
+    text-align: center;
+    padding: 10px;
+    line-height: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+table, td {
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.room-name {
+    background-color: #CAAD7E;
+}
