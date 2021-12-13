@@ -1,4 +1,3 @@
-/*INFO*/
 h2{
     font-family: 'Philosopher', sans-serif;
     text-align: center;
@@ -17,7 +16,7 @@ select{
     background-color:#e9edf9;
     border-radius: 8px;
     border-width: 2px;
-    border-color: #38369A;
+    border-color: #38369a91;
 }
 label{
     font-weight:550px;
@@ -25,21 +24,23 @@ label{
 input{
     background-color:#e9edf9;
     border-radius: 8px;
-    border-color: #38369A;
+    border-color: #38369a8a;
 }
 .rsv{
-    border-style:dotted;
-    border-color: #38369A;
-    margin-left: 500px;
-    margin-right: 500px;
+    border-style:double;
+    border-color: #87a1c0;
     border-radius: 50px;
-    border-width: 4px;
+    border-width: 5px;
     background-color: #9eb8d725;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-top: 20px;
+    padding-bottom: 25px;
 }
 button{
     font-family: 'Overlock', cursive;
     font-size: 15px;
-    border-color: #38369A;
+    border-color: #38369a8c;
     border-radius: 8px;
     padding-left: 8px;
     padding-right: 8px;
@@ -47,10 +48,19 @@ button{
     padding-bottom: 5px;
     background-color:#e9edf9
 }
-table{
-    margin-left: 140px;
+.button{
+    margin-left: 45px;
     text-align: center;
 }
-td{
-    padding: 7px;
+.buttoninfo{
+    padding: 10px;
+}
+.rsvtable{
+    padding: 75px;
+    margin-left: 100px;
+}
+img{
+    margin-left: 85px;
+    width: 600px;
+    border-radius: 15px;
 }
