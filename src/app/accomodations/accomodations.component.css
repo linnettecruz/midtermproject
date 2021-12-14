@@ -25,10 +25,16 @@ table, td {
 .room-name {
     background-color: #96aecb;
 }
-h3:hover{
+
+.info {
+    background-color: #9eb8d725;
+}
+
+h3:hover {
     font-size: 20px;
 }
-h2{
+
+h2 {
     text-decoration: overline;
     text-decoration-thickness: 2px;
 }
