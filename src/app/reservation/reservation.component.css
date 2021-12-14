@@ -17,14 +17,17 @@ select{
     border-radius: 8px;
     border-width: 2px;
     border-color: #38369a91;
+    padding: 3px;
 }
 label{
-    font-weight:550px;
+    font-weight:550;
+    font-size: 16px;
 }
 input{
     background-color:#e9edf9;
     border-radius: 8px;
     border-color: #38369a8a;
+    padding: 3px;
 }
 .rsv{
     border-style:double;
@@ -46,10 +49,12 @@ button{
     padding-right: 8px;
     padding-top: 5px;
     padding-bottom: 5px;
-    background-color:#e9edf9
+    background-color:#e9edf9;
+    border-width: 3px;
+    font-size: 17px;
 }
 .button{
-    margin-left: 45px;
+    margin-left: 30px;
     text-align: center;
 }
 .buttoninfo{
@@ -61,6 +66,17 @@ button{
 }
 img{
     margin-left: 85px;
-    width: 600px;
+    width: 650px;
     border-radius: 15px;
+}
+.date{
+    border-color: #38369a81;
+    border-style: solid;
+    padding: 6px;
+    border-radius: 10px;
+    border-width: 2px;
+    font-size: 16px;
+}
+button:hover{
+    opacity: 65%;
 }
