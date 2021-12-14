@@ -1,11 +1,15 @@
 button{
     font-family: 'Overlock', cursive;
-    font-size: 15px;
+    font-size: 17px;
     border-color: #38369a8e;
     border-radius: 8px;
     padding-left: 8px;
     padding-right: 8px;
     padding-top: 5px;
     padding-bottom: 5px;
-    background-color:#e9edf9
+    background-color:#e9edf9;
+    border-width: 3px;
+}
+button:hover{
+    opacity: 65%;
 }
