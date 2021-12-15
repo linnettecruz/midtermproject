@@ -4,11 +4,11 @@
 /*MENU*/
 a{
     text-decoration: none;
-    color:black;
+    color:white;
 }
 .menu{
     list-style-type: none; 
-    background-color: #A9DBB8;
+    background-color: #131983;
     overflow: hidden;
     margin: 0;
     padding: 0;
