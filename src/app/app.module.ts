@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { ReservationComponent } from './reservation/reservation.component';
 import { ButtonComponent } from './button/button.component';
 import { AccomodationsComponent } from './accomodations/accomodations.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ReservationComponent,
     ButtonComponent,
-    AccomodationsComponent
+    AccomodationsComponent,
+    FooterComponent
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   imports: [
