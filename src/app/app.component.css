@@ -4,11 +4,11 @@
 /*MENU*/
 a{
     text-decoration: none;
-    color:black;
+    color:white;
 }
 .menu{
     list-style-type: none; 
-    background-color: #A9DBB8;
+    background-color: #131983;
     overflow: hidden;
     margin: 0;
     padding: 0;
@@ -61,6 +61,7 @@ nav{
         50%{background-image: url(../assets/main2.jpg);}
         100%{background-image: url(../assets/main3.jpg);}
         }
+
 
         <!--Footer CSS-->
         p {
@@ -195,4 +196,6 @@ nav{
         body {
             height: 100%;
         }
+
+=======
 

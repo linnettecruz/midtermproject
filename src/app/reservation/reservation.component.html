@@ -1,42 +1,60 @@
 
-<div class="rsv">
-<h2>Make Your Reservation Here!</h2>
-<br>
-<form>
-    <label>First Name: </label>
-    <input type="text" id="clear">
-    <br>
-    <br>
-    <br>
-    <label>Last Name: </label>
-    <input type="text" id="clear">
-    <br>
-    <br>
-    <br>
-    <label>Bedroom Type: </label>
-        <select id="clear">
-            <option>Executive Superior</option>
-            <option>Junior Suite</option>
-            <option>Royal Junior Suite</option>
-            <option>Junior Suite Presidencial Royal</option>
-            <option>Royal Presidential Suite</option>
-        </select>
-    <br>
-    <br>
-    <br>
-    <label>Number of Travelers: </label>
-    <input type="text" id="clear">
-    <br>
-    <br>
-    <br>
-   <table>
-      <tr>
-        <td><button onclick="document.getElementById('clear').value = ''">Clear Input Field</button></td>
-        <td><app-button></app-button> </td>
-      </tr>
-    </table> 
-    <br>
-    <br>
-    <br>
-</form>
-</div>
+<table class="rsvtable">
+  <tr>
+      <td class="rsv">
+          <h2>Make Your Reservation Here!</h2>
+          <br>
+          <form>
+              <label>First Name: </label>
+              <input type="text" id="clear">
+              <br>
+              <br>
+              <br>
+              <label>Last Name: </label>
+              <input type="text" id="clear">
+              <br>
+              <br>
+              <br>
+              <label>Bedroom Type: </label>
+              <select id="clear">
+              <option>Executive Superior</option>
+              <option>Junior Suite</option>
+              <option>Royal Junior Suite</option>
+              <option>Junior Suite Presidencial Royal</option>
+              <option>Royal Presidential Suite</option>
+              </select>
+              <br>
+              <br>
+              <br>
+              <label>Number of Travelers: </label>
+              <input type="text" id="clear">
+              <br>
+              <br>
+              <br>
+              <br>
+              <label for="date" class="date">Arrival Date</label>
+              <br>
+              <br>
+              <duet-date-picker identifier="date"></duet-date-picker>
+              <br>
+              <br>
+              <label for="date" class="date">Departure Date</label>
+              <br>
+              <br>
+              <duet-date-picker identifier="date"></duet-date-picker>
+              <br>
+              <br>
+              <table class="button">
+              <tr>
+              <td class="buttoninfo"><button onclick="document.getElementById('clear').value = ''">Clear Input Field</button></td>
+              <td class="buttoninfo"><app-button></app-button></td>
+              </tr>
+              </table> 
+              </form>
+      </td>
+      
+      <td class="picture">
+          <img src="https://www.hodelpa.com/media/kjkpq5rd/hodelpa-garde-court-woman-relax-rooms-hotel-windows.jpg">
+      </td>
+  </tr>
+</table>

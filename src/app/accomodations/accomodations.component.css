@@ -1,0 +1,40 @@
+h2, h3 {
+    font-family: 'Philosopher', sans-serif;
+    text-align: center;
+}
+
+p {
+    font-family: 'Overlock', cursive;
+    text-align: center;
+    padding: 10px;
+    line-height: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+table, td {
+    padding: 5px;
+    border: 1px solid black;
+    border-width: 0.5px;
+}
+
+.room-name {
+    background-color: #96aecb;
+}
+
+.info {
+    background-color: #9eb8d725;
+}
+
+h3:hover {
+    font-size: 20px;
+}
+
+h2 {
+    text-decoration: overline;
+    text-decoration-thickness: 2px;
+}
